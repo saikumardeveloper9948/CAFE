@@ -1,0 +1,127 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  century;
+}
+header{
+    background-image: url(TREE.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    position: relative;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height:400px;
+    margin-right: 40px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration:none ;
+    color:#fff;
+    padding:5px 10px;
+    border: 1px solid transparent;
+    transition:0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+}
+ ul li .active a{
+    background-color: #fff;
+    color: #000;
+} 
+ img{
+    height: 50em;
+    width: 50em;
+    display: inline-block;
+} 
+ .logo, img{
+    float: left; 
+    width: 150px;
+    height: auto;
+    position: absolute; 
+    left: 10px;
+    top: 10px;
+ }
+ .main{
+    max-width: 1200px;
+    margin: auto;
+    
+ }
+ span{
+    color: #fff;
+ }
+ .title {
+    position: absolute;
+    left:50%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+ }
+ .title h1{
+     color: #fff;
+     font-size: 70px;
+     
+ }
+ .button{
+    position: absolute;
+    left:50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+ }
+ .btn{
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+ }
+ .btn:hover{
+    background-color: #fff;
+    color: black;
+ }
+ .sub_menu{
+    display:none;
+    top: 6%;
+    position: relative; 
+ }
+ .sub menu ul{
+    position: absolute;
+ }
+ .main ul li:hover .sub_menu{
+    display: block;
+    position:absolute;
+    margin-top: 12px;
+    margin-left: -8px;
+    width: 90px;
+    height: 80px;
+ }
+ .main ul li:hover .sub_menu ul{
+     display: block;
+     margin: 6px;
+ }
+ .main ul li:hover .sub_menu ul li{
+    width:75px;
+    padding: 5px;
+    border-bottom:1px white;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+ }
+ .support{
+   position: absolute;
+   top: 650px;
+   left:1380px;
+   text-decoration: none; 
+   font-size: 25px;
+ }
